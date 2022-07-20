@@ -9,7 +9,7 @@ header{
     display: flex;
     text-align: center;
     color: white;
-    background-image: lightskyblue;
+    background-color: steelblue;
     height: 15vh;
     justify-content: center;
     align-items: center;
@@ -27,7 +27,7 @@ main{
     display: flex;
     width: 100%;
     align-items: center;
-    background-color: lightskyblue;
+    background-color: steelblue;
     font-weight: bold;
     border: none;
     border-radius: 10px;

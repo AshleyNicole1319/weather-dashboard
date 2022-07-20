@@ -21,25 +21,30 @@
     
     <main class="container">
         <!--Search for a City-->
-        <div class="row">
+        <section class="row">
             <div class="col-12 col-md-3 p-2 searchform">
                 <!--Form for Searching City-->
                 <form id="searchcity" class="border">
-                    <!--!!!Insert Form Stuff Here!!!-->
+                    <h2>Search for a City:</h2>
+                    <input id="city" type="text" class="form-input" />
                     <button type="submit" class="btn btn-primary">Show the Forecast</button>
                 </form>
                 <!--History of Searches-->
-                <div> <!--!!!Insert History Stuff Here!!!--> </div>
+                <div id="history-btns" class="historysearch border"></div>
             </div>
-        </div>
+        </section>
         <!--Chosen City Weather-->
-        <div id="currentweather">
-            <!--!!!Insert Chosen City Stuff!!!-->
-        </div>
+        <section id="currentweather" class="row border selection city">
+            <div class="col-12 col-md-9">
+                <h2 id="searchedfor"></h2>
+                <div id="currentweather" class="listgroup"></div>
+            </div>
+        </section>>
         <!--5 Day Forecast-->
-        <div id="fiveday">
-            <!--!!!Insert 5 Day Forecast Stuff!!!-->
-        </div>
+        <section id="fiveday" class="row border">
+            <h3 id="forecast" class="col-12 col-md-9 col-md-3"></h3>
+            <div id="fivedisplay" class="fiverow"></div>
+        </section>
     </main>
 
     <!--Link to JS/jQuery-->
